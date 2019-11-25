@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card'
 
 const ExerciseList = ({exercises}) => (
-        <div>
+        <>
             { exercises.map((exercise) => {
                 return(
                     <Card
@@ -15,7 +15,7 @@ const ExerciseList = ({exercises}) => (
                     />
                 )
             })}
-        </div>
+        </>
     )
  
 export default ExerciseList
